@@ -136,7 +136,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "magic-string": "0.25.7",
     "materialize-css": "1.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "nodejs-websocket": "^1.7.2",
     "protractor": "^7.0.0",
     "puppeteer": "5.4.1",
