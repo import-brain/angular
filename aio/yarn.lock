@@ -4168,16 +4168,15 @@ devtools-protocol@0.0.869402:
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.869402.tgz#03ade701761742e43ae4de5dc188bcd80f156d8d"
   integrity sha512-VvlVYY+VDJe639yHs5PHISzdWTLL3Aw8rO4cvUtwvoxFd6FHbE4OpHHcde52M6096uYYazAmd4l0o5VuFRO2WA==
 
-dgeni-packages@^0.29.2:
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/dgeni-packages/-/dgeni-packages-0.29.2.tgz#3b4af98156e50a850ca26a48c55d6d608b454ae5"
-  integrity sha512-vUR4OqSVqzbH4hTdIc7WWynTJ92XQXfdtgLoIFa9cfYRElWSTWkNsUa5+MWM/oNChusfNkFoIyRrNgNHvliWIw==
+dgeni-packages@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/dgeni-packages/-/dgeni-packages-0.30.0.tgz#7e8002ee154fed7bc97841222e0f25628cf2285d"
+  integrity sha512-k5y9HSwJzWgc8S7bHxejojJfuo2heltY9lTa5UgfqoBv2vubCwqXhVxFBXr3nKfymc9YOALCnk10JYeOdVLLWQ==
   dependencies:
     canonical-path "^1.0.0"
     catharsis "^0.8.1"
     change-case "3.0.0"
     dgeni "^0.4.14"
-    eslint "^7.17.0"
     espree "^7.3.1"
     estraverse "^4.1.0"
     glob "^7.0.5"
@@ -4187,13 +4186,11 @@ dgeni-packages@^0.29.2:
     lodash.template "^4.5.0"
     marked "^0.7.0"
     minimatch "^3.0.2"
-    mkdirp "^1.0.3"
     nunjucks "^3.2.2"
     rehype "^8.0.0"
     semver "^5.2.0"
-    source-map-support "^0.4.15"
     spdx-license-list "^2.1.0"
-    typescript "~3.2.2"
+    typescript "~4.5.4"
     urlencode "^1.1.0"
 
 dgeni@^0.4.14:
@@ -4972,7 +4969,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.17.0, eslint@^7.26.0:
+eslint@^7.26.0:
   version "7.32.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
@@ -10913,7 +10910,7 @@ source-map-support@0.5.20, source-map-support@^0.5.5, source-map-support@~0.5.20
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map-support@^0.4.15, source-map-support@~0.4.0:
+source-map-support@~0.4.0:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   integrity sha512-try0/JqxPLF9nOjvSta7tVondkP5dwgyLDjVoyMDlmjugT2lRZ1OfsrYTkCd2hkDnJTKRbO/Rl3orm8vlsUzbA==
@@ -11823,15 +11820,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.2.2:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
-  integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
-
 typescript@~4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.2.tgz#6d618640d430e3569a1dfb44f7d7e600ced3ee86"
   integrity sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==
+
+typescript@~4.5.4:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
 ua-parser-js@^0.7.28:
   version "0.7.28"
